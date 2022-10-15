@@ -1,0 +1,28 @@
+--INSTALAR GIT
+
+--PARA VERIFICAR SI ESTÁ CORRECTAMENTE INSTALADO
+    en la terminal escribir
+      git version
+      (debería devolver la info de tu version)
+      ejemplo
+      git version 2.38.0.windows.1
+
+--PARA ACTUALIZAR A LA ÚLTIMA VERSIÓN EN WINDOWS
+    en la terminal escribir
+      git update-git-for-windows
+
+--CONFIGURACIÓN DE GIT
+    en la terminal escribir
+      git config --global user.name "mi nombre"
+    y luego
+      git config --global user.email "miemail@example.com"
+
+    PARA SABER QUE USUARIO Y MAIL ESTÁN CONFIGURADOS
+      git config --global user.name
+      (debería devolver la info de tu usuario)
+      git config --global user.email
+      (debería devolver la info de tu mail) 
+
+--PASOS A SEGUIR PARA SUBIR UN REPOSITORIO
+    dentro de la carpeta de tu proyecto ir a la terminal y escribir
+
