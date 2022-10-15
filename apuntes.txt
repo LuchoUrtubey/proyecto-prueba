@@ -25,4 +25,35 @@
 
 --PASOS A SEGUIR PARA SUBIR UN REPOSITORIO
     dentro de la carpeta de tu proyecto ir a la terminal y escribir
+      git init
+      (da inicio a tu repositorio dentro de git)
+      (debería aparecer al lado de cada archivo la letra U) U= Untracked (sin seguimiento)
 
+    para agregar los archivos escribir en la terminal
+      git add nombrearhivo
+      (debería cambiar la letra U por la letra A) A= Added (agregado)
+      ejemplo
+      git add index.html
+
+    para saber el estado de cada archivo escribir en la terminal
+      git status
+      (debería devolver el estado de cada archivo)
+
+    para agregar todos los archivos de una sola vez, escribir en la terminal
+      git add .
+      (deberían cambiar en todos los archivos la letra U por la A)
+
+    para generar una copia con mensaje escribimos en la terminal
+      git commit -m "mensaje"
+      (debería devolver la lista de archivos que se hicieron commit y desaparecer sus letras)
+
+      git log --oneline
+      (debería devolver en una línea los commits realizados)  
+
+
+--AL REALIZAR CAMBIOS EN TU PROYECTO
+    en el o los archivos que hagas cambios se agregará la letra M (M= Modified) modificado
+    cuando consideres que es hora de guardar escribir en la terminal
+      git status (para ver los archivos que fueron modificados o creados)
+      git add nombrearhivo (para subir de aun archivo por vez) 
+      git add . (para subir todos de una sola vez)
