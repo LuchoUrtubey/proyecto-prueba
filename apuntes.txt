@@ -57,3 +57,30 @@
       git status (para ver los archivos que fueron modificados o creados)
       git add nombrearhivo (para subir de aun archivo por vez) 
       git add . (para subir todos de una sola vez)
+      Si se realizaron bien estos pasos deberían desaparecer las letras de los archivos
+
+--SUBIR AL REPOSITORIO REMOTO GITHUB
+    crear un nuevo repositorio en GITHUB
+    escribir en la terminal
+    git remote add origin https://github.com/tuusuario/turepositorio.git
+    (crea la conexión con el repositorio remoto de github para poder subir los archivos)
+    para corroborar que este la conexión correctamente escribir en la terminal
+    git remote -v
+    (debería devolver los datos origin url fetch y push)
+    para subir mis archivos escribir en la terminal
+    git push origin master
+    (pide verificar usuario y contraseña para hacer la conexión)
+    (Esto sube el repositorio a github en la rama master)
+    Verificar en tu cuenta de github que esté subido o escribir en la terminal
+    git log --oneline
+    (debería devolver el historial de nuestro repositorio con sus commits)
+
+--CLONAR UN REPOSITORIO
+    ir al repositorio en github y dentro de code copiar la url que nos brinda
+    crear una carpeta nueva abrir la terminal dentro de esa carpeta y escribir
+    git clone https://github.com/tuusuario/turepositorio.git
+    (debería descargar completo todo nuestro repositorio con sus ramas y commits)
+    cerrar la terminal y abrir la carpeta descargada con Visual Studio Code y en la terminal escribir
+    git log --oneline
+    (si hiciste los pasos correctamente deberías ver el historial)
+    
