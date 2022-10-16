@@ -84,3 +84,10 @@
     git log --oneline
     (si hiciste los pasos correctamente deberías ver el historial)
     
+--IGNORAR archivos
+    para ignorar ciertos archivos para que git no les haga seguimiento crear el arvhivo
+    .gitignore
+    (escribir dentro del archivo creado una lista con los nombres de los archivos a ignorar)
+    (si se hizo todo correcto desapareceran las letras de seguimiento)
+
+    
